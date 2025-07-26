@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday Adwiiii!!</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600&display=swap');
+    
+    :root {
+      --primary: #de7bd4;
+      --secondary: #cdb1d1;
+      --accent: #12124a;
+      --text: #2b2d42;
+      --light: #f8f9fa;
+    }
+    
+    body {
+      font-family: 'Comic Sans MS', cursive;
+      background-color: var(--light);
+      color: var(--text);
+      margin: 0;
+      padding: 0;
+      background-image: radial-gradient(circle, var(--secondary) 1px, transparent 1px);
+      background-size: 20px 20px;
+      line-height: 1.6;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+      text-align: center;
+      background-color: white;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .container::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 10px;
+      background: linear-gradient(90deg, var(--primary), var(--accent), var(--primary));
+    }
+    
+    h1 {
+      font-family: 'Comic Sans MS', cursive;
+      color: var(--primary);
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    }
+    
+    p {
+      margin-bottom: 2rem;
+      font-size: 1.1rem;
+    }
+    
+    .message {
+      font-family: 'Comic Sans MS', cursive;
+      font-size: 2rem;
+      margin: 2rem 0;
+      color: var(--primary);
+    }
+    
+    img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 15px;
+      margin: 1rem 0;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    
+    img:hover {
+      transform: scale(1.03);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+    
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+    
+    button {
+      background-color: var(--primary);
+      color: white;
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1.1rem;
+      border-radius: 50px;
+      cursor: pointer;
+      margin: 1rem 0;
+      transition: all 0.3s;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      font-weight: 600;
+    }
+    
+    button:hover {
+      background-color: var(--accent);
+      transform: translateY(-3px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    }
+    
+    .hidden {
+      display: none;
+    }
+    
+    #surprise {
+      font-size: 1.5rem;
+      color: var(--primary);
+      margin: 2rem 0;
+      padding: 1rem;
+      background-color: var(--secondary);
+      border-radius: 10px;
+      animation: pulse 2s infinite;
+    }
+    
+    .memory {
+      background-color: #f8f9fa;
+      padding: 1.5rem;
+      border-radius: 15px;
+      margin: 1.5rem 0;
+      text-align: left;
+      border-left: 5px solid var(--primary);
+    }
+    
+    .memory h3 {
+      color: var(--primary);
+      margin-top: 0;
+    }
+    
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+    
+    .confetti {
+      position: fixed;
+      width: 10px;
+      height: 10px;
+      background-color: var(--primary);
+      opacity: 0;
+      animation: confetti-fall 5s linear forwards;
+    }
+    
+    @keyframes confetti-fall {
+      0% {
+        transform: translateY(-100px) rotate(0deg);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(100vh) rotate(360deg);
+        opacity: 0;
+      }
+    }
+    
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    
+    .heart {
+      color: var(--primary);
+      font-size: 1.5rem;
+      display: inline-block;
+      animation: heartbeat 1.5s infinite;
+    }
+    
+    @keyframes heartbeat {
+      0% { transform: scale(1); }
+      25% { transform: scale(1.1); }
+      50% { transform: scale(1); }
+      75% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1> Happy Birthday Adwiiii! </h1>
+    
+    <p>My dearest "best of friends",</p>
+    
+    <div class="memory">
+      <h3>KOCH 20 AAYIIIII</h3>
+      <p>GOD BLESS YOUU ABUNDANTLYY..GODS TAKING YOU THROUGH A VERY SPECIAL JOURNEY AND HE HAS SO MUCH IN STORE FOR YOU..JUST ALWAYS DEPEND ON HIM AND LET GOD.ANXIETY,FUTURE,PARTNER,FINANCIAL STUFF EVRYTHING HES ALREADY TAKEN CARE OF SO YEAH HELL TAKE CARE.IK ITS THE USUAL CLICHE BUT I WANTED TO DO SOMETHIGN DIFFERENT.. SO YE LOL MAKING THIS WEBPAGE..IM REALLY GRATEFUL TO GOD FOR BRINGING YOU TO MY LIFE ESP IN THE RIGHT SEASONS. HE HAS A PURPOSE FOR EVERYTHING.THANKYOU FOR MAKING ME GROW IN LOT OF WAYS AND ALWAYS BEING THERE FOR ME.. I REALLY APPRECIATE IT</p>
+    </div>
+    
+    <div class="gallery">
+      <img src="a.jpg" alt="chori pic" />
+    </div>
+    
+    <div class="memory">
+      <h3>Thankful For You</h3>
+      <p>I'm so incredibly grateful to God for bringing you into my life at just the right time. Our friendship has been such a blessing, and I know He brought us together for a special purpose. Through all the laughs, tears, and every jokess thankyou for just being there and making me humble nd showing me all the harsh realities and being brutal to me.</p>
+    </div>
+    
+    <p class="message">You're amazing just the way you are <span class="heart">♥</span></p>
+    
+    <button onclick="showSurprise(); createConfetti()">Click for Your Special Surprise!</button>
+    
+    <div id="surprise" class="hidden">
+      <p>gpay nokk</p>
+    </div>
+    
+    <footer>
+      Made with <span class="heart">♥</span> 
+  </div>
+
+  <script>
+    function showSurprise() {
+      document.getElementById('surprise').classList.remove('hidden');
+    }
+    
+    function createConfetti() {
+      const colors = ['#ff6b6b', '#ffb8b8', '#ffd166', '#06d6a0', '#118ab2'];
+      
+      for (let i = 0; i < 100; i++) {
+        const confetti = document.createElement('div');
+        confetti.className = 'confetti';
+        confetti.style.left = Math.random() * 100 + 'vw';
+        confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+        confetti.style.width = Math.random() * 10 + 5 + 'px';
+        confetti.style.height = Math.random() * 10 + 5 + 'px';
+        confetti.style.animationDuration = Math.random() * 3 + 2 + 's';
+        confetti.style.animationDelay = Math.random() * 2 + 's';
+        document.body.appendChild(confetti);
+        
+        // Remove confetti after animation
+        setTimeout(() => {
+          confetti.remove();
+        }, 5000);
+      }
+    }
+    
+    // Fix the typo in the original code ('suprise' vs 'surprise')
+    document.addEventListener('DOMContentLoaded', function() {
+      // This ensures the element is properly referenced
+    });
+  </script>
+</body>
+</html>
